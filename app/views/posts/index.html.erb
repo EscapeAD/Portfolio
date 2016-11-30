@@ -24,14 +24,36 @@
             </div>
         </div>
         <div class="col-lg-12 text-center row">
-                <% @posts.each do |post| %>
+          <div class="col-sm-4 portfolio-item">
+          <div class="card">
+            <h4> Featured </h4>
+      <%= link_to image_tag('lendr.png', class: 'center-block img-responsive thumbnail'), 'https://hidden-brushlands-35661.herokuapp.com/', target: "_top"%>
+          <div class="card-block">
+            <h3 class="card-title">Lendr</h3>
+            <p class="card-text">A Platform for people to lend and borrow items; creating unique experiences and connections.</p>
+           </div>
+         </div>
+
+     </div>
+     <div class="col-sm-6 portfolio-item">
+       <h4 class='pull-left'> Other Personal Projects</h4>
+       <strong><%= link_to '500px Scout', 'https://whispering-reef-25542.herokuapp.com', target: "_top" %></strong>
+       <p>Small little app, playing with the 500px api </p>
+
+       <strong>currently still deloying other</strong>
+       <p>For now checkout my github for others:
+       </br>
+       <%= link_to 'Adam Tse GitHub', 'https://github.com/EscapeAD/',target: "_top" %>
+       </p>
+     </div>
+
+                <!-- <% @posts.each do |post| %>
                 <div class="col-sm-4 portfolio-item">
                 <%= link_to post_path(post) do %>
                   <%= image_tag post.image, class: 'thumbnail img-responsive' %>
                 <% end %>
                 </div>
-            <% end %>
-        </div>
+            <% end %> -->
     </div>
 </section>
 
