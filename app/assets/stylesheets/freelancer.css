@@ -525,3 +525,8 @@ footer ul li a.active {
 #portfolio  h2{
   color: #2C3E50;
 }
+
+#links{
+  text-decoration: none;
+  color: black;
+}
