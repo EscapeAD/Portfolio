@@ -14,12 +14,16 @@ p.small {
   font-size: 16px;
 }
 a,
+a:link,
 a:hover,
 a:focus,
 a:active,
 a.active {
   color: #18BC9C;
   outline: none;
+  text-decoration: none;
+  text-decoration-line: none;
+
 }
 h1,
 h2,
@@ -529,4 +533,8 @@ footer ul li a.active {
 #links{
   text-decoration: none;
   color: black;
+}
+
+#portfolio a {
+  color: steelblue;
 }
