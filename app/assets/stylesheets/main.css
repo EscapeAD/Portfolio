@@ -538,3 +538,11 @@ footer ul li a.active {
 #portfolio a {
   color: steelblue;
 }
+
+body {
+    padding-top: 70px;
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
