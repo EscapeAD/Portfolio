@@ -570,3 +570,8 @@ body {
 #about li{
   font-size: 15px
 }
+#story{
+  color: lightblue;
+  font-family: handwriting;
+  text-decoration: line-through;
+}
