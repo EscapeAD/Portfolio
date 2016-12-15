@@ -560,3 +560,12 @@ body {
    color: black;
    border-radius: 20px;
  }
+
+.skills {
+  font-style: italic;
+  color: white;
+  font-size: 0.75em;
+}
+#about li{
+  font-size: 15px
+}
