@@ -546,3 +546,17 @@ body {
 .portfolio-item {
     margin-bottom: 25px;
 }
+
+#blog {
+  background-color: #4A96AD;
+  color: white;
+}
+ #blog h2, h1 {
+   color: white;
+ }
+ #blog p{
+   background-color: white;
+   border: 1px black solid;
+   color: black;
+   border-radius: 20px;
+ }
