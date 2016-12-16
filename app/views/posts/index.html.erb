@@ -52,16 +52,7 @@
        <i class="fa fa-github" aria-hidden="true"></i>
        <%= link_to 'Adam Tse GitHub', 'https://github.com/EscapeAD/',target: "_top" %>
      </h3>
-
      </div>
-
-                <!-- <% @posts.each do |post| %>
-                <div class="col-sm-4 portfolio-item">
-                <%= link_to post_path(post) do %>
-                  <%= image_tag post.image, class: 'thumbnail img-responsive' %>
-                <% end %>
-                </div>
-            <% end %> -->
     </div>
 </section>
 
@@ -145,7 +136,6 @@
                 <small><%= (post.created_at).strftime("Posted on %A, %d %b %Y %l:%M %p") %>
               <p class='text-left'><%= raw((post.body))%></p>
               <% end %>
-
             </div>
         </div>
       </div>
