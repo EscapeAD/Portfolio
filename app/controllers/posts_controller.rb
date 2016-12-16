@@ -5,7 +5,7 @@ class PostsController < ApplicationController
   end
 
   def home
-    @posts  = Post.all.order('created_at desc').limit(2)
+    @posts  = Post.all.order('created_at desc').limit(4)
     render :index
   end
 
