@@ -491,8 +491,8 @@ fieldset[disabled] .btn-success.active {
   display: none;
 }
 .sepia {
-    -webkit-filter: sepia(1);
-    filter: sepia(1);
+    -webkit-filter: greyscale(1);
+    filter: grayscale(1);
 }
 
 
