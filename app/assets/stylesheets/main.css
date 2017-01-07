@@ -46,6 +46,10 @@ body{
   color: white;
 }
 
+#iconfour {
+  color: white;
+}
+
 .name > h1{
   margin-bottom: 0em;
   color: ;
@@ -63,26 +67,35 @@ body{
 .about{
   margin-top: 5em;
 }
+
 .projects{
   margin-top: 5em;
   margin-bottom: 5em;
 }
 
 @media (max-width: 1000px) {
-  .content{
-    padding: 2em;
-  }
   #profile-pic {
     margin: 0 auto;
   }
   .about{
     margin-top: 5em;
   }
+  .projects{
+    padding: 1em;
+  }
+  .content {
+    padding: 1em;
+  }
+  .skill {
+    padding-top: 2em;
+  }
 }
+
 @media (max-width: 600px) {
   .h-space{
     padding-right: 200px;
   }
+
 }
 .card-columns {
   @include media-breakpoint-only(lg) {
@@ -97,4 +110,34 @@ body{
   @include media-breakpoint-only(sm) {
     column-count: 3;
   }
+}
+@media (min-width: 1000px) {
+  .projects {
+  padding: 0;
+  }
+}
+.skillNum {
+  float: left;
+  font-size: 3em;
+  padding: 0.5em;
+  padding-top: 0;
+  color: #6f9090	;
+}
+
+.play{
+  color: #6f9090	;
+}
+
+.fa-star {
+  color: yellow;
+  text-shadow:
+ -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+   1px 1px 0 #000;
+}
+
+.card-footer {
+  background-color: #4e6565;
+  color: white;
 }
