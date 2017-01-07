@@ -3,5 +3,38 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 .content {
-  padding: 25em 0;
+  padding: 100px 0;
+  height: 2000px;
+}
+
+.desktop-box{
+  position: relative;
+  height: 600px;
+  width: auto;
+  background-image: url('mainbackground.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top center;
+}
+
+.desktop-box > .name{
+  font-size: 2em;
+  color: white;
+  position: absolute;
+  margin-top: 9em;
+  margin-left: 3em;
+  text-shadow:
+ -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+   1px 1px 0 #000;
+   line-height: 0.0em;
+}
+
+.name > h1{
+  margin-bottom: 0em;
+  color: ;
+}
+.profile-pic{
+  height: 10em;
 }
