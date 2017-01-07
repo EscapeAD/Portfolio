@@ -3,8 +3,7 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 .content {
-  padding: 100px 0;
-  height: 2000px;
+  padding: 50px 0;
 }
 
 .desktop-box{
@@ -32,15 +31,70 @@ body{
    line-height: 0.0em;
 }
 
+.h-space {
+  line-height: 1em;
+}
+#iconone {
+  color: white;
+}
+
+#icontwo {
+  color: white;
+}
+
+#iconthree {
+  color: white;
+}
+
 .name > h1{
   margin-bottom: 0em;
   color: ;
 }
-.profile-pic{
-  height: 10em;
+
+#profile-pic{
+
 }
+
 .navbar {
   background-color: white;
   visibility: hidden;
   transition: visibility 1, opacity 0.5s fade-in;
+}
+.about{
+  margin-top: 5em;
+}
+.projects{
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+@media (max-width: 1000px) {
+  .content{
+    padding: 2em;
+  }
+  #profile-pic {
+    margin: 0 auto;
+  }
+  .about{
+    margin-top: 5em;
+  }
+}
+@media (max-width: 600px) {
+  .h-space{
+    padding-right: 200px;
+  }
+}
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+  @include media-breakpoint-only(md) {
+    column-count: 3;
+  }
+  @include media-breakpoint-only(sm) {
+    column-count: 3;
+  }
 }

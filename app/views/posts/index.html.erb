@@ -1,8 +1,13 @@
 <header class='desktop-box logo'>
-  <article class='name font-size'>
+  <article class='fluid-container name font-size'>
     <h1>Adam Tse</h1></br>
-    Web Developer <i class="fa fa-twitter" aria-hidden="true"></i> <i class="fa fa-linkedin-square" aria-hidden="true"></i> <i class="fa fa-envelope-o" aria-hidden="true"></i>
-
+    <span class='col h-space'>Web Developer
+  </span>
+    <span class='col h-space'>
+    <a id='iconone' href='https://twitter.com/escapead'><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    <a id='icontwo' href='https://ca.linkedin.com/in/adam-tse'><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+    <a id='iconthree' href='mailto:mr.adam.tse@gmail.com'><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+  </span>
 </article>
 </header>
 <nav class="navbar navbar-toggleable-md navbar-light fixed-top bg-faded">
@@ -12,27 +17,94 @@
   <a class="navbar-brand">Adam Tse</a>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link active" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-      <a class="nav-item nav-link" href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-      <a class="nav-item nav-link" href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+      <a class="nav-item nav-link active" href="https://twitter.com/escapead"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      <a class="nav-item nav-link" href="https://ca.linkedin.com/in/adam-tse"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+      <a class="nav-item nav-link" href="mailto:mr.adam.tse@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
     </div>
   </div>
 </nav>
 
-<section class='content container'>
-  <article>
+<div class='content container'>
     <h1> Greetings</h1>
     <hr>
-    <section class='d-flex'>
-      <%= image_tag('profile.png', class: 'p-1 img-fluid profile-pic', alt: 'Responsive image') %>
-    <p class='p-2'>
+    <article class='row'>
+      <%= image_tag('profile.png',id: 'profile-pic', class: 'img-fluid', alt: 'Responsive image') %>
+    <span class='about col-xs-12 col-md-12 col-lg-8'>
       I'm Adam Tse, a Full-stack developer. A new exciting journey I started in 2015, now I'm on a mission to catch them all. In 2015, I was self-taught learning from online resources and books. I eventually decided to take Bitmaker to level up my skills and have a new base of knowledge. Since then I have been continuing my learning in as aspects of coding.
-    </br>
-    Current Arssonel:</br>
-    Ruby on Rails, Ruby, Javascript
-    </p>
-    <section>
+    </span>
   </article>
+  <hr>
+  <div class='skills'>
+
+  </div>
+</div>
+
+
+
+
+
+<section class='projects container'>
+  <p class='lead'>Projects</p>
+  <div class='card-columns'>
+    <div class="card">
+      <%=image_tag('lendr.jpeg', class: 'card-img-top img-fluid ', alt: "Card image cap Responsive image") %>
+      <div class="card-block">
+        <h4 class="card-title">LENDR</h4>
+        <p class="card-text">A Platform for people to lend and borrow items; creating unique experiences and connections.</p>
+      </div>
+        <div class="card-footer">
+          <small class="text-muted"><i class="fa fa-star" aria-hidden="true"></i>
+          Final School Project</small>
+
+      </div>
+    </div>
+    <div class="card">
+      <%=image_tag('vp.jpeg', class: 'card-img-top img-fluid ', alt: "Card image cap Responsive image") %>
+      <div class="card-block">
+        <h4 class="card-title">VINCENT PHAN</h4>
+        <p class="card-text">A Calgary based realtor.<p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted"><i class="fa fa-star" aria-hidden="true"></i>
+        Professional Site</small>
+
+    </div>
+    </div>
+    <div class="card">
+      <%=image_tag('500.jpeg', class: 'card-img-top img-fluid ', alt: "Card image cap Responsive image") %>
+      <div class="card-block">
+        <h4 class="card-title">500PX SCOUT</h4>
+        <p class="card-text">A small gallery based off the 500px API. Playing with api features, gem and such.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted"><i class="fa fa-star" aria-hidden="true"></i>
+        Personal Project</small>
+    </div>
+    </div>
+
+  <div class="card">
+    <%=image_tag('match.jpeg', class: 'card-img-top img-fluid ', alt: "Card image cap Responsive image") %>
+    <div class="card-block">
+      <h4 class="card-title">Match Game</h4>
+      <p class="card-text">A simple matching number game made with javascript.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted"><i class="fa fa-star" aria-hidden="true"></i>
+      Personal Project</small>
+  </div>
+  </div>
+  <div class="card">
+    <%=image_tag('http://www.freepsdfile.com/wp-content/uploads/2013/11/Free-Cool-Foreign-Web-Template-PSD.jpg', class: 'card-img-top img-fluid ', alt: "Card image cap Responsive image") %>
+    <div class="card-block">
+      <h4 class="card-title">Zach Szeto</h4>
+      <p class="card-text">A Toronto Based Realtor in the North York Region.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted"><i class="fa fa-star" aria-hidden="true"></i>
+      Professional Website</small>
+  </div>
+  </div>
+</div>
 </section>
 
 
