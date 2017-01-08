@@ -10,10 +10,10 @@ body{
   position: relative;
   height: 600px;
   width: auto;
-  background-image: url('https://s29.postimg.org/lk18n6mc7/mainbg.png');
+  background-image: url('http://i.imgur.com/3SpfdHr.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: top center;
+  background-position: center;
   overflow: hidden;
 }
 
